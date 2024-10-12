@@ -34,6 +34,9 @@ def writeCV(file,data,lang):
     # Head - Right
     mods.writeEle(file,'div',2,atr='class=\"rightside\"',newLine=1)
 
+    # Intro
+    mods.writeEle(file,'div',2,atr='class=\"intro\"',newLine=1)
+
     # Bio
     mods.writeEle(file,'div',2,atr='class=\"bio\"',newLine=1)
 
@@ -41,16 +44,20 @@ def writeCV(file,data,lang):
     mods.writeEle(file,'div',2,atr='class=\"basics\"',newLine=1)
     # Basics
     mods.writeBasics(file,data)
+    # Basics Close
+    mods.writeEle(file,'div',3)
+
     # Keywords
     arrKey=[]
     mods.writeKeywords(file,data,arrKey,lang)
-    # Basics Close
+
+    # Close Bio
     mods.writeEle(file,'div',3)
-    
+
     # Contacts
     mods.writeContact(file,data)   
 
-    # Close Bio
+    # Close Intro
     mods.writeEle(file,'div',3)
 
     # Close Head-Right
@@ -136,6 +143,9 @@ def writeCL(file,data,lang):
     # Head - Right
     mods.writeEle(file,'div',2,atr='class=\"rightside\"',newLine=1)
 
+    # Intro
+    mods.writeEle(file,'div',2,atr='class=\"intro\"',newLine=1)
+
     # Bio
     mods.writeEle(file,'div',2,atr='class=\"bio\"',newLine=1)
 
@@ -143,16 +153,20 @@ def writeCL(file,data,lang):
     mods.writeEle(file,'div',2,atr='class=\"basics\"',newLine=1)
     # Basics
     mods.writeBasics(file,data)
-    # Keywords
-    arrKey=[]
-    mods.writeKeywords(file,data,arrKey,lang)
     # Basics Close
     mods.writeEle(file,'div',3)
 
-    # Contact
-    mods.writeContact(file,data)
-
+    # Keywords
+    arrKey=[]
+    mods.writeKeywords(file,data,arrKey,lang)
+    
     # Close Bio
+    mods.writeEle(file,'div',3)
+
+    # Contacts
+    mods.writeContact(file,data)   
+
+    # Close Intro
     mods.writeEle(file,'div',3)
 
     # Close Head-Right

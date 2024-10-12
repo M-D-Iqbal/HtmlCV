@@ -20,7 +20,7 @@ def writeHead(file,lang,sty,font):
     file.write(f'<meta http-equiv="X-UA-Compatible" content="ie=edge" />\n')
     file.write(f'<link rel="preconnect" href="https://fonts.googleapis.com">\n')
     file.write(f'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n')
-    file.write(f'<link href="{font} rel="stylesheet" ">\n')
+    file.write(f'<link href="{font}" rel="stylesheet">\n')
     file.write(f'<script src="https://kit.fontawesome.com/3c80283b16.js" crossorigin="anonymous"></script>\n')
     file.write(f'</head>\n')
     file.write(f'<body>\n')
@@ -148,8 +148,8 @@ def writeBasics(file,data):
     writeEle(file,'div',2,atr="class=\"name\"",newLine=1)
     writeEle(file,'span',1,atr="class=\"first\"",cont=first)
     writeEle(file,'span',1,atr="class=\"last\"",cont=last)
-    writeEle(file,'div',1,atr="class=\"label\"",cont=label)
     writeEle(file,'div',3)
+    writeEle(file,'div',1,atr="class=\"label\"",cont=label)
 
 # Summary
 def writeSummary(file,data):

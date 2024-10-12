@@ -15,7 +15,7 @@
         "label": "Computational Engineer", 
         "first": "Muhammad Danish",
         "last" : "Iqbal",
-        "email": "muhammad.iqbal@uni-due.de",
+        "email": "m-d.iqbal@outlook.com",
         "phone": "+4917682044361",
         "proPic": "pic.jpg",
         "address": "45145, Essen",
@@ -195,14 +195,9 @@
     "socials": 
     [
         {
-            "name": "Website",
+            "name": "Personal",
             "url": "https://m-d-iqbal.github.io",
             "icon": "fa-solid fa-globe fa-lg"
-        },
-        {
-            "name": "Institute",
-            "url": "https://www.uni-due.de/statik/de",
-            "icon": "fa-solid fa-building fa-lg"
         },
         {
             "name": "LinkedIn",
@@ -218,6 +213,11 @@
             "name": "Researchgate",
             "url": "https://researchgate.net/profile/Muhammad-Iqbal-95",
             "icon": "fa-brands fa-researchgate fa-lg"
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/M-D-Iqbal",
+            "icon": "fa-brands fa-github fa-lg"
         }
     ]
 }
