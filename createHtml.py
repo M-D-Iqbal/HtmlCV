@@ -4,6 +4,7 @@ import importlib
 import webbrowser
 
 # Other inputs
+title  = 'MD-Iqbal'     # name of html without extension
 jsFile = 'bio.json'     # json file with given template
 style  = 'sty1'         # python and css style (currently only sty1 exsist)
 typ    = 'cvcl'         # typ: cv, cl, or cvcl        
@@ -20,8 +21,8 @@ sys.path.append(modPath)
 pro=importlib.import_module('createProfile')
 
 # Build 
-pro.createProfile(srcPath,outPath,jsFile,style,typ,lang)
+pro.createProfile(title,srcPath,outPath,jsFile,style,typ,lang)
 
 # Open html
-url = os.path.join(outPath,'index.html')
+url = os.path.join(outPath,f'{title}.html')
 webbrowser.open(url)

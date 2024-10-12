@@ -5,13 +5,13 @@ from datetime import datetime
 # -------------------------- General Mods ----------------------- #
 
 # HTML head
-def writeHead(file,lang,sty,font):
+def writeHead(file,title,lang,sty,font):
 
     file.write(f'<!DOCTYPE html>\n')
 
     file.write(f'<html lang="{lang}">\n')
     file.write(f'<head>\n')
-    file.write(f'<title>index</title>\n')
+    file.write(f'<title>{title}</title>\n')
 
     file.write(f'<link rel="stylesheet" href="{sty}"/>\n')
     file.write(f'<base target="_blank" />\n')

@@ -21,7 +21,7 @@ import json
 import mods                          # type: ignore
 
 # Function
-def createProfile(src,out,jsFile,style,typ,lang):
+def createProfile(title,src,out,jsFile,style,typ,lang):
 
     # Current directory
     cur = os.path.dirname(__file__)
@@ -71,7 +71,7 @@ def createProfile(src,out,jsFile,style,typ,lang):
         data = json.load(file)
 
     # Html
-    htmlFile = os.path.join(out,'index.html')
+    htmlFile = os.path.join(out,f'{title}.html')
     with open(htmlFile, 'w') as html:
 
         # Import style
@@ -79,7 +79,7 @@ def createProfile(src,out,jsFile,style,typ,lang):
         font = sty.getFont()
         
         # HTML header
-        mods.writeHead(html,lang,styCs,font)
+        mods.writeHead(html,title,lang,styCs,font)
 
         # CV
         if typ == 'cv':
