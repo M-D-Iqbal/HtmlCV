@@ -5,18 +5,17 @@
     --font-weight: 400;
 
     /* Colors */
-    --Lbg: #333333;
+    --Lbg: #424242;
     --Lheadbg: white;
-    --Lhead: #333333;
+    --Lhead: #424242;
     --Ltxt: white;
 
     --Rbg: white;
-    --Rheadbg: #333333;
+    --Rheadbg: #424242;
     --Rhead: white;
-    --Rtxt: black;
+    --Rtxt: #424242;
 
-    --temp: #333333;
-    --bord: #333333;
+    --temp: #424242;
 
     /* Fonts */
     --font-size: 37px;
@@ -26,24 +25,26 @@
     --font-label: 0.5em;
     --font-contact: 0.375em;
 
-    --font-head: 0.45em;
+    --font-head: 0.5em;
     --font-list: 0.425em;
-    --font-title: 0.4em;
+    --font-title: 0.45em;
     --font-org: 0.4em;
     --font-date: 0.375em;
     --font-high: 0.365em;
     --font-key: 0.2em;
 	
     --font-pub: 0.365em;
-    --font-let: 0.425em;
+    --font-let: 0.44em;
 
 	/* Spacing */
     --size-mark: 0.4cm;
-    --lineH-let: 1em;
-    --lineH-high: 1.25em;
+    --lineH-let: 1.1em;
+    --lineH-high: 1.2em;
 
-	--pad-m: 0.5em;
-    --pad-i: 0.25em;
+	--pad-m: 0.5cm;
+    --pad-i: 0.075cm;
+    --padL-r: 1cm;
+    --padL-l: 1.25cm;
 
     /* Picture Spacing */;
     --picR: 5%;
@@ -83,7 +84,7 @@ page {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-top: 0.1cm solid var(--bord);
+    border-top: 0.1cm solid var(--temp);
 }
 
 /* Content */
@@ -101,7 +102,7 @@ page {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-	border-bottom: 0.1cm solid var(--bord);
+	border-bottom: 0.1cm solid var(--temp);
 }
 
 /* CL */
@@ -110,7 +111,7 @@ page {
     height: 24.95cm;
     display: flex;
     flex-direction: column;
-	border: 0.1cm solid var(--bord);
+	border: 0.1cm solid var(--temp);
 }
 
 /* Panel */
@@ -129,21 +130,19 @@ page {
 	display: flex;
     flex-direction: column;
     background-color: var(--Rbg);
-	border-right: 0.1cm solid var(--bord);
+	border-right: 0.1cm solid var(--temp);
 	padding-left: var(--pad-m);
 	padding-right: var(--pad-m);
 }
 
 /* Headings */
 .head {
-    text-transform: uppercase;
-    letter-spacing: 0.1cm;
+    letter-spacing: 0.02cm;
     font-size: var(--font-head);
 	margin-top: 0.3cm;
-	padding-left: var(--pad-i);
-	padding-right: var(--pad-i);
+    padding: var(--pad-i);
+    border-radius: 0.1cm;
 }
-
 .title {
     letter-spacing: 0.0225cm;
     font-size: var(--font-title);
@@ -205,14 +204,14 @@ a {
 
 .first{
     font-weight: normal;
-	text-transform: uppercase;
     letter-spacing: 0.15cm;
 	font-size: var(--font-name1);
     color: var(--Rtxt);
+    margin-top: 0.1cm;
 }
 .last {
     font-weight: bold;
-    letter-spacing: 0.25cm;
+    letter-spacing: 0.1cm;
     text-transform: uppercase;
 	font-size: var(--font-name2);
     color: var(--Rtxt);
@@ -341,7 +340,9 @@ a {
 .Ski ul li {
     background-color: var(--Lheadbg);
     color: var(--Lhead);
-	padding: 0.05cm;
+	padding: 0.1cm;
+    border-radius: 0.15cm;
+    text-align: justify;
 }
 .Ski ul>li::marker {
     font-size: 0;
@@ -394,20 +395,20 @@ a {
     font-size: var(--font-list);
 }
 .Social .item{
- padding-right: var(--pad-i);
- padding-left: var(--pad-i);  
+    padding-right: var(--pad-i);
+    padding-left: var(--pad-i);  
 }
 /* ---------------------- Letter --------------------- */
 /* Company */
 .Company {
-	height: 3.5cm;
+	height: 3.35cm;
     display: flex;
     flex-direction: column;
 	justify-content: space-between;
-	margin-top: 0.5cm;
-	letter-spacing: 0.05cm;
+	margin-top: 0.65cm;
+	letter-spacing: 0.025cm;
     color: var(--Ltxt);
-	padding-left: 0.6cm;
+	padding-left: calc(var(--padL-l) - var(--pad-m));
     font-size: var(--font-list);
 }
 
@@ -418,17 +419,17 @@ a {
     font-size: var(--font-title);
     font-weight: bold;
     color: var(--Rtxt);
-	padding-left:1cm;
-	padding-right:0.75cm;
+	padding-left:var(--padL-l);
+	padding-right:var(--padL-r);
 }
 
 /* Letter Content */
 .Let-cont {
-    margin-top: 0.5cm;
+    margin-top: 0.25cm;
     text-align: justify;
     hyphens: auto;
-	padding-left:1cm;
-	padding-right:0.75cm;
+	padding-left:var(--padL-l);
+	padding-right:var(--padL-r);
 }
 
 .Let-cont .item{
@@ -447,12 +448,12 @@ a {
 	font-weight: var(--font-weight);
 }
 .Close-let {
-    margin-top: 0.3cm;
+    margin-top: 0.1cm;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-	padding-left:1cm;
-	padding-right:0.75cm;
+	padding-left:var(--padL-l);
+	padding-right:var(--padL-r);
 }
 
 .Close-let .NameCityDate{
@@ -461,6 +462,7 @@ a {
     justify-content: space-around;
     font-weight: bold;
     font-size: var(--font-head);
+    color: var(--temp);
 }
 
 .Close-let .SignPic {
@@ -501,7 +503,6 @@ a {
 }
 .rightside .title {
     color: var(--Rtxt);
-    font-weight: bold;
 }
 .rightside .org {
     color: var(--temp);

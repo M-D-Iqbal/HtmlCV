@@ -7,7 +7,7 @@ import webbrowser
 title  = 'MD-Iqbal'     # name of html without extension
 jsFile = 'bio.json'     # json file with given template
 style  = 'sty1'         # python and css style (currently only sty1 exsist)
-typ    = 'cvcl'         # typ: cv, cl, or cvcl        
+typ    = 'cv'           # typ: cv, cl, or cvcl        
 lang   = 'en'           # language for hyphenation and headings
 
 # Paths (if relative then this works or define absolute paths)

@@ -71,7 +71,7 @@
     [
         "Multi-Physics Problems", 
         "Numerical Methods",
-        "Structure Mechanics",
+        "Structural Analysis",
         "Fracture Mechanics",
         "Engineering Materials"
     ],
@@ -104,15 +104,15 @@
 
     "publications": 
     [
-        "<b>M. D. Iqbal, et al.</b> <a href=\"https://doi.org/10.1016/j.tafmec.2023.104056\">\"Transient thermoelastic fracture analysis of functionally graded materials using the scaled boundary finite element method.\"</a> Theoretical and Applied Fracture Mechanics, vol. 127, Oct. 2023, p. 104056.",
+        "M. D. Iqbal, et al. <a href=\"https://doi.org/10.1016/j.tafmec.2023.104056\">\"Transient thermoelastic fracture analysis of functionally graded materials using the scaled boundary finite element method.\"</a> Theoretical and Applied Fracture Mechanics, vol. 127, Oct. 2023, p. 104056.",
 
-        "<b>M. D. Iqbal, et al.</b> <a href=\"https://doi.org/10.1016/j.engfracmech.2022.108305\">\"Thermoelastic fracture analysis of functionally graded materials using the scaled boundary finite element method.\"</a> Engineering Fracture Mechanics, vol. 264, Apr. 2022, p. 108305.",
+        "M. D. Iqbal, et al. <a href=\"https://doi.org/10.1016/j.engfracmech.2022.108305\">\"Thermoelastic fracture analysis of functionally graded materials using the scaled boundary finite element method.\"</a> Engineering Fracture Mechanics, vol. 264, Apr. 2022, p. 108305.",
 
         
-        "<b>M. D. Iqbal, et al.</b> <a href=\"https://doi.org/10.1016/j.cma.2021.114106\">\"Development of the scaled boundary finite element method for crack propagation modeling of elastic solids subjected to coupled thermo-mechanical loads.\"</a> Computer Methods in Applied Mechanics and Engineering, vol. 387, Dec. 2021, p. 114106.",
+        "M. D. Iqbal, et al. <a href=\"https://doi.org/10.1016/j.cma.2021.114106\">\"Development of the scaled boundary finite element method for crack propagation modeling of elastic solids subjected to coupled thermo-mechanical loads.\"</a> Computer Methods in Applied Mechanics and Engineering, vol. 387, Dec. 2021, p. 114106.",
     
     
-        "<b>E.T. Ooi, et al.</b> <a href=\"https://doi.org/10.1016/j.engfracmech.2020.107300\">\"A polygon scaled boundary finite element formulation for transient coupled thermoelastic fracture problems.\"</a> Engineering Fracture Mechanics, vol. 240, Dec. 2020, p. 107300."
+        "E.T. Ooi, et al. <a href=\"https://doi.org/10.1016/j.engfracmech.2020.107300\">\"A polygon scaled boundary finite element formulation for transient coupled thermoelastic fracture problems.\"</a> Engineering Fracture Mechanics, vol. 240, Dec. 2020, p. 107300."
     ],
 
     "education": 
