@@ -53,6 +53,10 @@ def writeCV(file,data,lang):
     # Contacts
     mods.writeContact(file,data)   
 
+    # Socials
+    arrSoc=[["icon"]]
+    mods.writeSocial(file,data,arrSoc)
+
     # Close Intro
     mods.writeEle(file,'div',3)
 
@@ -65,52 +69,54 @@ def writeCV(file,data,lang):
     # Content
     mods.writeEle(file,'div',2,atr='class=\"content\"',newLine=1)
 
-    # CV
-    mods.writeEle(file,'div',2,atr='class=\"cv\"',newLine=1)
+    # Profile
+    heading = 1
+    mods.writeProfile(file,data,heading,lang)
 
-    # Left
-    mods.writeEle(file,'div',2,atr='class=\"leftside\"',newLine=1)
-
-    # Education
-    arrEdu=[["title"],["org"],["date"]]
-    mods.writeEducation(file,data,arrEdu,lang)
+    # Achievements
+    arrAch=[]
+    mods.writeAchieve(file,data,arrAch,lang)
 
     # Expertise
     arrExp=[]
     mods.writeExpert(file,data,arrExp,lang)
 
-    # Skills
-    arrSkl=[["level"],["tools"]]
-    mods.writeTechSkill(file,data,arrSkl,lang)
-    
-    # Languages
-    arrLan=[["language"],["fluency"]]
-    mods.writeLang(file,data,arrLan,lang)
-
-    # Socials
-    arrSoc=[["icon"]]
-    mods.writeSocial(file,data,arrSoc)
-
-    # Close Left
-    mods.writeEle(file,'div',3)
-
-    # Right
-    mods.writeEle(file,'div',2,atr='class=\"rightside\"',newLine=1)
+    # Tech Skills
+    arrTechSkl=[["tools"]]
+    mods.writeTechSkill(file,data,arrTechSkl,lang)
 
     # Work
     arrWor=[["title","date"],["org"],["highlights"]]
     mods.writeWork(file,data,arrWor,lang)
 
+    # Close Content
+    mods.writeEle(file,'div',3)
+
+    # Close Page
+    mods.writeEle(file,'page',3)
+
+    # Page
+    mods.writeEle(file,'page',2,atr='size=\"A4\"',newLine=1)
+
+    # Content without Header
+    mods.writeEle(file,'div',2,atr='class=\"contentWH\"',newLine=1)
+
+    # Education
+    arrEdu=[["title","date"],["org"]]
+    mods.writeEducation(file,data,arrEdu,lang)
+
     # Publications
     arrPub=[]
     mods.writePublic(file,data,arrPub,lang)
 
-    # Close Content-Right
-    mods.writeEle(file,'div',3)
-
-    # Close CV
-    mods.writeEle(file,'div',3)
+    # Soft Skills
+    arrSoftSkl=[]
+    mods.writeSoftSkill(file,data,arrSoftSkl,lang)
     
+    # Languages
+    arrLan=[["language"],["fluency"]]
+    mods.writeLang(file,data,arrLan,lang)
+
     # Close Content
     mods.writeEle(file,'div',3)
 
@@ -123,6 +129,7 @@ def writeCL(file,data,lang):
     # Page
     mods.writeEle(file,'page',2,atr='size=\"A4\"',newLine=1)
     
+
     # Header
     mods.writeEle(file,'div',2,atr='class=\"header\"',newLine=1)
 
@@ -157,6 +164,10 @@ def writeCL(file,data,lang):
 
     # Contacts
     mods.writeContact(file,data)   
+
+    # Socials
+    arrSoc=[["icon"]]
+    mods.writeSocial(file,data,arrSoc)
 
     # Close Intro
     mods.writeEle(file,'div',3)

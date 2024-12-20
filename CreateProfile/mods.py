@@ -91,6 +91,9 @@ def writeSec(file,sec,head,clss,arrange):
     # Heading
     if len(head) != 0:
         writeEle(file,'div',1,atr="class=\"head\"",cont=head)
+    # All items
+    itemAtr='class="'+clss+'-items"'
+    writeEle(file,'div',2,atr=itemAtr,newLine=1)
     # Dataset
     for i in range(len(sec)):
         lvl=1
@@ -128,6 +131,8 @@ def writeSec(file,sec,head,clss,arrange):
                             writeEle(file,'div',3)
         # Closing item
         writeEle(file,'div',3)
+    # Closing all items
+    writeEle(file,'div',3)
     # Closing Main
     writeEle(file,'div',3)
 
@@ -150,12 +155,6 @@ def writeBasics(file,data):
     writeEle(file,'span',1,atr="class=\"last\"",cont=last)
     writeEle(file,'div',3)
     writeEle(file,'div',1,atr="class=\"label\"",cont=label)
-
-# Summary
-def writeSummary(file,data):
-    basics=getData(data,'basics')
-    summary=getData(basics,'summary')
-    writeEle(file,'div',1,atr="class=\"summary\"",cont=summary)
 
 # Contact
 def writeContact(file,data):
@@ -184,14 +183,79 @@ def writeContact(file,data):
     # Close contact
     writeEle(file,'div',3)
 
-# Keywords
-def writeKeywords(file,data,array,lang): 
-    # Heading
-    head = ''
-    # Class
-    clss = 'Key'
+# Profile
+def writeProfile(file,data,heading,lang):
     # Data
-    sec=getData(data,'keywords')
+    basics=getData(data,'basics')
+    profile=getData(basics,'profile')
+    # Opening
+    writeEle(file,'div',2,atr="class=\"Pro\"",newLine=1) 
+    # Heading
+    if heading == 1:   
+        if lang == 'de':
+            head = 'Kurzprofil'
+        else:
+            head = 'Profile'
+         
+        writeEle(file,'div',1,atr="class=\"head\"",cont=head)
+    # Profile    
+    writeEle(file,'div',1,atr="class=\"item\"",cont=profile)
+    # Closing
+    writeEle(file,'div',3)
+
+# Achievements
+def writeAchieve(file,data,array,lang): 
+    # Heading
+    if lang == 'de':
+        head = 'Leistung'
+    else:
+        head = 'Achievements'
+    # Class
+    clss = 'Ach'
+    # Data
+    sec=getData(data,'achieve')
+    # Write Data
+    writeSec(file,sec,head,clss,array)
+    
+# Expertise
+def writeExpert(file,data,array,lang): 
+    # Heading
+    if lang == 'de':
+        head = 'Fachkenntnisse'
+    else:
+        head = 'Expertise'
+    # Class
+    clss = 'Exp'
+    # Data
+    sec=getData(data,'expertise')
+    # Write Data
+    writeSec(file,sec,head,clss,array)
+
+# Tech Skills
+def writeTechSkill(file,data,array,lang): 
+    # Heading
+    if lang == 'de':
+        head = 'F&#228higkeiten'
+    else:
+        head = 'Technical Skills'
+    # Class
+    clss = 'tech-Ski'
+    # Data
+    sec=getData(data,'tech-skills')
+    # Write Data
+    writeSec(file,sec,head,clss,array)
+
+# Tech Skills
+def writeSoftSkill(file,data,array,lang): 
+    # Heading
+    if lang == 'de':
+        head = 'Sozialkompetenz'
+    else:
+        head = 'Soft Skills'
+    # Class
+    clss = 'soft-Ski'
+    # Data
+    sec=getData(data,'soft-skills')
     # Write Data
     writeSec(file,sec,head,clss,array)
 
@@ -223,31 +287,17 @@ def writeWork(file,data,array,lang):
     # Write Data
     writeSec(file,sec,head,clss,array)
 
-# Expertise
-def writeExpert(file,data,array,lang): 
+# Publications
+def writePublic(file,data,array,lang): 
     # Heading
     if lang == 'de':
-        head = 'Fachkenntnisse'
+        head = 'Publikationen'
     else:
-        head = 'Expertise'
+        head = 'Publications'
     # Class
-    clss = 'Exp'
+    clss = 'Pub'
     # Data
-    sec=getData(data,'expertise')
-    # Write Data
-    writeSec(file,sec,head,clss,array)
-
-# Skills
-def writeSkill(file,data,array,lang): 
-    # Heading
-    if lang == 'de':
-        head = 'F&#228higkeiten'
-    else:
-        head = 'Skills'
-    # Class
-    clss = 'Ski'
-    # Data
-    sec=getData(data,'skills')
+    sec=getData(data,'publications')
     # Write Data
     writeSec(file,sec,head,clss,array)
 
@@ -262,20 +312,6 @@ def writeLang(file,data,array,lang):
     clss = 'Lan'
     # Data
     sec=getData(data,'languages')
-    # Write Data
-    writeSec(file,sec,head,clss,array)
-
-# Publications
-def writePublic(file,data,array,lang): 
-    # Heading
-    if lang == 'de':
-        head = 'Publikationen'
-    else:
-        head = 'Publications'
-    # Class
-    clss = 'Pub'
-    # Data
-    sec=getData(data,'publications')
     # Write Data
     writeSec(file,sec,head,clss,array)
 

@@ -27,7 +27,7 @@
 
     --font-head: 0.5em;
     --font-list: 0.425em;
-    --font-title: 0.45em;
+    --font-title: 0.425em;
     --font-org: 0.4em;
     --font-date: 0.375em;
     --font-high: 0.365em;
@@ -224,19 +224,6 @@ a {
     color: var(--temp);
 	margin-top: 0.3cm;
 }
-/* Keywords */
-.Key {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-	font-size: var(--font-key);
-    color: var(--Ltxt);
-}
-.Key .item {
-	margin-top: 0cm;
-	margin-bottom:0cm;
-}
 
 /* Contact */
 .contact {
@@ -316,35 +303,36 @@ a {
 }
 
 /* Skills */
-.Ski {
+.tech-Ski {
     width: 100%;
     align-self: center;
     margin-bottom: 0.3cm;
 }
-.Ski .item{
+.tech-Ski .item{
     color: var(--Ltxt);
-    font-size: var(--font-high);
+    font-size: var(--font-title);
 	padding-left: var(--pad-i);
 	padding-right: var(--pad-i);
 	margin-top: 0.25cm;
 	margin-bottom: 0.25cm;
 }
-.Ski ul {
+.tech-Ski ul {
     display: flex;
     flex-direction: row;
 	justify-content: space-between;
+    font-size: 0.85em;
 	margin-top: 0.1cm;
 	margin-bottom: 0.1cm;
     padding: 0cm;
 }
-.Ski ul li {
+.tech-Ski ul li {
     background-color: var(--Lheadbg);
     color: var(--Lhead);
-	padding: 0.1cm;
+	padding: 0.05cm;
     border-radius: 0.15cm;
     text-align: justify;
 }
-.Ski ul>li::marker {
+.tech-Ski ul>li::marker {
     font-size: 0;
 }
 
