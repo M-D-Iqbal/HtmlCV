@@ -1,4 +1,5 @@
 {
+   
     "basics": 
     {
         "label": "Computational Engineer", 
@@ -8,9 +9,9 @@
         "phone": "+4917682044361",
         "proPic": "pic.jpg",
         "address": "45145, Essen",
-        "city": "Essen,",
         "sign":"sign.png",
-        "profile": "I am an engineer with a Ph.D. in Computational Mechanics, specializing in numerical modeling of multi-physics problems. I have a strong background in research and have authored several publications in acclaimed journals. I have developed complex codes and have expertise in using specialized CAE software. I have also taught courses related to computational mechanics and supervised theses. My experience includes international collaboration and project management in academic and research settings."
+        "city": "Essen,",
+        "profile": "<b>Engineer and Computational Mechanics Specialist (Ph.D.)</b> with extensive expertise in developing and implementing numerical methods for multi-physics problems in aerospace and automotive industries. Proficient in advanced simulation algorithms, programming in multiple languages, and utilizing specialized CAE software to model materials with complex mechanical and thermal properties. Experienced in project management, delivering innovative, practical solutions on time, and collaborating with cross-functional, international teams. Combines technical excellence, analytical problem-solving, and effective communication to inspire teams and achieve shared goals. A flexible and interculturally adept team player who fosters motivation and collaboration to drive success."
     },
 
     "company":
@@ -25,42 +26,43 @@
 
     "subject": 
     [
-        "Application for the position of Computational Engineer"
+        "<b>Application for the position of [LABEL] [JOBREF]</b>"
     ],
     
     "content": 
     [
-        {   "para" : "Dear XYZ,"},
-        { 
-            "para" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero."
+        {   
+            "para" : "[PERSON],"
         },
-        { 
-            "para" : "Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum."
-        },
-        { 
-            "keyPoints" : [
-                "Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.",
-                "Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-                "Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis.",
-                "Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam."
-            ]
-        },
-        { 
-            "para" : "Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris."
-        },
-        { 
-            "para" : "Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed pretium blandit orci."
+
+        {
+            "para" : "I am writing to express my sincere interest and enthusiasm for the position of [LABEL] [JOBREF] at [COMPANY], as advertised on [JOBWEB]. I have recently completed my Ph.D. in Computational Mechanics and am now seeking new professional challenges. Over the past seven years, I have worked as a research assistant at the University of Duisburg-Essen, where I have developed extensive skills and expertise relevant to this position, including [EXP-1] and [EXP-2]."
         },
         {
-            "para" : "Sincerely"
-        }
+            "keyPoints" : 
+            [
+                "I have developed the Scaled Boundary Finite Element Method (SBFEM) in MATLAB to solve multi-physics fracture problems. I have also gained expertise in various other tools, such as [TOOL-1] and [TOOL-2].", 
+                "I have contributed to international research collaborations, presented findings at conferences, and published in prestigious journals.",  
+                "I taught master's courses in Structural Dynamics using ANSYS and Computer Languages for Engineers with FORTRAN, C++, and Python.",
+                "I have also supervised theses in computational mechanics and led an e-learning project to digitize course materials."
+            ]
+        },
+        {
+            "para" : "These experiences have greatly enhanced both my technical expertise and interpersonal abilities. I am confident that my background and skills make me a strong candidate for this position. I look forward to the opportunity to discuss how my qualifications align with your needs. Thank you for considering my application."
+        },
+        {
+            "para" : "Sincerely,"
+        }	
     ],
 
-    "achieve" : 
+    "strength":
     [
-        "1st achievement.",
-        "2nd achievement.",
-        "3rd achievement."
+        "<b>Expertise in Simulation and Numerical Modeling:</b> Skilled in developing and implementing advanced numerical methods to solve complex engineering problems, particularly in multi-physics simulations.", 
+        "<b>Interdisciplinary Knowledge:</b> Expert at integrating in-depth knowledge across engineering disciplines such as [EXP-1] and [EXP-2], driving effective and creative solutions.",
+        "<b>Technical Expertise:</b> Advanced knowledge of MATLAB, [TOOL-1] [TOOL-2], and other computational tools, with a strong focus on algorithm development and numerical simulations.",
+        "<b>Project Management and Team Coordination:</b> Development of an innovative interactive learning platforms and contribution to the design and production of a Formula Student car that won 1st place in an engineering competition. Demonstrating strong ability to define and achieve both technical and organizational goals.",
+        "<b>Innovation and Problem-solving:</b> Proven ability to develop innovative solutions that enhance efficiency and streamline workflows. Automated exam generation during COVID-19, enabling scalable solutions that saved time and resources.",
+        "<b>Intercultural and Communication Skills:</b> Extensive experience working with international partners, including the DAAD-PPP program between Germany and Australia. Strong presentation skills, demonstrated through conference speaking engagements and published scientific articles. Adept at conveying complex technical content in an understandable and persuasive manner."
     ],
 
     "expertise": 
@@ -80,8 +82,8 @@
                 "FEM",
                 "SBFEM",
                 "Matlab",
-                "Ansys",
-                "FORTRAN"
+                "ANSYS",
+                "LaTex"
             ]
         },
         {
@@ -90,9 +92,9 @@
             [
                 "CAD",
                 "CFD",
+                "FORTRAN",
                 "C++",
-                "Python",
-                "LaTex"
+                "Python"
             ]
         },
         {
@@ -108,14 +110,6 @@
         }
     ],
 
-    "soft-skills": 
-    [
-       "One",
-       "two",
-       "three",
-       "four"
-    ],
-
     "work": [
         {
             "title": "Research Assistant",
@@ -124,13 +118,9 @@
             "highlights": 
             [
                 "Authored a Ph.D. thesis on <a href=\"https://duepublico2.uni-due.de/receive/duepublico_mods_00082324\">\"Development of scaled boundary polygon elements for coupled thermoelastic fracture modeling.\"</a>",
-
                 "Developed and implemented a novel finite element (Scaled Boundary Finite Element) within the framework of our in-house MATLAB library to model multi-physics fracture problem in specialized engineering materials.",
-
                 "Delivered lectures on Structural Dynamics and Computer Language For Engineers (CLFE). Coordinated course management, expanded curriculum, and provided hands-on laboratory training.",
-
                 "Supervised master's and bachelor's theses on diverse topics in numerical modeling, including Computational Fluid Dynamics (CFD), dynamic load analysis, and polygon meshing techniques.",
-
                 "Led an E-Learning initiative to implement an interactive learning approach, enhancing the accessibility and engagement of course materials for students."
             ]
         },
@@ -141,7 +131,6 @@
             "highlights": 
             [
                 "Collaborated between the University of Duisburg-Essen and Federation University to advance joint research initiatives under the Australia-Germany Joint Research Cooperation (DAAD-PPP).",
-
                 "Conceptualized, strategized, and implemented the extension of the Scaled Boundary Finite Element Method to model thermoelastic fracture in special-purpose engineering materials."
             ]
         },
@@ -152,7 +141,6 @@
             "highlights": 
             [
                 "Developed a special-purpose polygon-based finite element (Scaled Boundary Finite Element) in FORTRAN.",
-
                 "Integrated the element subroutine into an open-source software FEAPpv."
             ]
         }
@@ -180,13 +168,8 @@
     "publications": 
     [
         "M. D. Iqbal, et al. <a href=\"https://doi.org/10.1016/j.tafmec.2023.104056\">\"Transient thermoelastic fracture analysis of functionally graded materials using the scaled boundary finite element method.\"</a> Theoretical and Applied Fracture Mechanics, vol. 127, Oct. 2023, p. 104056.",
-
         "M. D. Iqbal, et al. <a href=\"https://doi.org/10.1016/j.engfracmech.2022.108305\">\"Thermoelastic fracture analysis of functionally graded materials using the scaled boundary finite element method.\"</a> Engineering Fracture Mechanics, vol. 264, Apr. 2022, p. 108305.",
-
-        
         "M. D. Iqbal, et al. <a href=\"https://doi.org/10.1016/j.cma.2021.114106\">\"Development of the scaled boundary finite element method for crack propagation modeling of elastic solids subjected to coupled thermo-mechanical loads.\"</a> Computer Methods in Applied Mechanics and Engineering, vol. 387, Dec. 2021, p. 114106.",
-    
-    
         "E.T. Ooi, et al. <a href=\"https://doi.org/10.1016/j.engfracmech.2020.107300\">\"A polygon scaled boundary finite element formulation for transient coupled thermoelastic fracture problems.\"</a> Engineering Fracture Mechanics, vol. 240, Dec. 2020, p. 107300."
     ],
 

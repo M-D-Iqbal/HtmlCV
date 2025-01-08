@@ -393,7 +393,7 @@ a {
     display: flex;
     flex-direction: column;
 	justify-content: space-between;
-	margin-top: 0.65cm;
+	margin-top: 0.85cm;
 	letter-spacing: 0.025cm;
     color: var(--Ltxt);
 	padding-left: calc(var(--padL-l) - var(--pad-m));
@@ -503,7 +503,6 @@ a {
 }
 .rightside a{
     color: var(--Rtxt);
-    font-style: italic;
 }
 
 /* ---------------------- Screens --------------------- */

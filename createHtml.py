@@ -5,10 +5,15 @@ import webbrowser
 
 # Other inputs
 title  = 'MD-Iqbal'     # name of html without extension
-jsFile = 'bio.json'     # json file with given template
 style  = 'sty2'         # python and css style (currently only sty1 exsist)
-typ    = 'cvcl'           # typ: cv, cl, or cvcl        
-lang   = 'en'           # language for hyphenation and headings
+typ    = 'cvcl'         # typ: cv, cl, or cvcl        
+lang   = 'de'           # language for hyphenation and headings
+
+# JSON file
+if lang == 'de':
+    jsFile = 'bio_de.json'
+else:
+    jsFile = 'bio_en.json'     
 
 # Paths (if relative then this works or define absolute paths)
 curPath = os.path.dirname(__file__)

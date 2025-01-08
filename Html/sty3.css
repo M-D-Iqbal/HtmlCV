@@ -7,9 +7,8 @@
     /* Colors */
     --back: white;
     --text: #242424;
-    
+
     --temp: #003366;
-    --temp: #424242;
 
     --LHbg: var(--temp);
     --LHfg: var(--back);

@@ -216,6 +216,20 @@ def writeAchieve(file,data,array,lang):
     sec=getData(data,'achieve')
     # Write Data
     writeSec(file,sec,head,clss,array)
+
+# Strengths
+def writeStrength(file,data,array,lang): 
+    # Heading
+    if lang == 'de':
+        head = 'St&#228rken'
+    else:
+        head = 'Strengths'
+    # Class
+    clss = 'Str'
+    # Data
+    sec=getData(data,'strength')
+    # Write Data
+    writeSec(file,sec,head,clss,array)
     
 # Expertise
 def writeExpert(file,data,array,lang): 

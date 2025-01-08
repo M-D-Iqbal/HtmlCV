@@ -73,21 +73,17 @@ def writeCV(file,data,lang):
     heading = 1
     mods.writeProfile(file,data,heading,lang)
 
-    # Achievements
-    arrAch=[]
-    mods.writeAchieve(file,data,arrAch,lang)
-
-    # Expertise
-    arrExp=[]
-    mods.writeExpert(file,data,arrExp,lang)
+    # Strength
+    arrStren=[]
+    mods.writeStrength(file,data,arrStren,lang)
 
     # Tech Skills
     arrTechSkl=[["tools"]]
     mods.writeTechSkill(file,data,arrTechSkl,lang)
 
-    # Work
-    arrWor=[["title","date"],["org"],["highlights"]]
-    mods.writeWork(file,data,arrWor,lang)
+    # Education
+    arrEdu=[["title","date"],["org"]]
+    mods.writeEducation(file,data,arrEdu,lang)
 
     # Close Content
     mods.writeEle(file,'div',3)
@@ -101,18 +97,14 @@ def writeCV(file,data,lang):
     # Content without Header
     mods.writeEle(file,'div',2,atr='class=\"contentWH\"',newLine=1)
 
-    # Education
-    arrEdu=[["title","date"],["org"]]
-    mods.writeEducation(file,data,arrEdu,lang)
+    # Work
+    arrWor=[["title","date"],["org"],["highlights"]]
+    mods.writeWork(file,data,arrWor,lang)
 
     # Publications
     arrPub=[]
     mods.writePublic(file,data,arrPub,lang)
 
-    # Soft Skills
-    arrSoftSkl=[]
-    mods.writeSoftSkill(file,data,arrSoftSkl,lang)
-    
     # Languages
     arrLan=[["language"],["fluency"]]
     mods.writeLang(file,data,arrLan,lang)

@@ -5,14 +5,17 @@
     --font-weight: 400;
 
     /* Colors */
-    --temp: #424242;
     --back: white;
+    --text: #242424;
+    
+    --temp: #003366;
+    --temp: #424242;
 
     --LHbg: var(--temp);
     --LHfg: var(--back);
 
     --RHbg: var(--back);
-    --RHfg: var(--temp);
+    --RHfg: var(--text);
 
     --headbg: var(--temp);
     --headfg: var(--back);
@@ -25,22 +28,23 @@
     /* Header */
     --picR: 5%;
     --font-name: 0.55em;
-    --font-label: 0.45em;
+    --font-label: 0.475em;
     --font-contact: 0.425em;
     --font-icon: 0.325em;
 
     /* Content */
-    --font-head: 0.5em;
+    --font-head: 0.475em;
     --font-title: 0.425em;
     --font-list: 0.4em;
-    --font-txt: 0.35em;
+    --font-txt: 0.375em;
 
     /* Letter */
-    --font-Let: 0.375em;
+    --font-Let: 0.385em;
 
     /* Size */
     --pad-H: 1cm;
     --pad-V: 0.5cm;
+    --mar-V: 0.5cm;
 }
 
 /* ---------------------- Layout -------------------- */
@@ -49,6 +53,7 @@ body {
     padding:0 auto;
     background: var(--back);
     justify-content: center;
+    font-family: var(--font-family);
     font-weight: var(--font-weight);
     font-size: var(--font-size);
 }
@@ -92,7 +97,7 @@ page {
     padding-left: var(--pad-H);
     padding-top: var(--pad-V);
     padding-bottom: var(--pad-V);
-    color: var(--temp);
+    color: var(--text);
     background-color: var(--back);
     box-sizing: border-box; 
     border: solid 0.1cm var(--temp);
@@ -106,7 +111,7 @@ page {
     padding-left: var(--pad-H);
     padding-top: var(--pad-V);
     padding-bottom: var(--pad-V);
-    color: var(--temp);
+    color: var(--text);
     background-color: var(--back);
     box-sizing: border-box; 
     border: solid 0.1cm var(--temp);
@@ -126,8 +131,8 @@ page {
     height: 100%;
 	display: flex;
     flex-direction: column;
-    background-color: var(--Rbg);
-    color: var(--Rfg);
+    background-color: var(--RHbg);
+    color: var(--RHfg);
 }
 /* Picture */
 .profilePic {
@@ -184,13 +189,15 @@ page {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: var(--RHfg);
     margin-bottom: 0.25cm;
 }
 .contact .item {
     font-size: var(--font-contact);
+    color: var(--text);
 }
-
+.contact a{
+    color: var(--text);
+}
 .contact i {
     color: var(--temp);
 }
@@ -202,12 +209,11 @@ page {
     flex-direction: row; 
     justify-content: space-between;
     font-size: var(--font-icon);
-    background-color: var(--RHfg);
+    background-color: var(--temp);
 }
 .Social .item{
     padding: 0.1cm;
 }
-
 .Social i {
     color: var(--back);
 }
@@ -217,9 +223,11 @@ page {
 .head {
     font-size: var(--font-head);
     font-weight: bold;
-    letter-spacing: 0.02cm;
+    text-transform: uppercase;
+    letter-spacing: 0.03cm;
     margin-bottom: 0.2cm;
-    border-bottom: solid 0.05cm var(--temp);
+    color: var(--temp);
+    border-bottom: solid 0.04cm var(--temp);
 }
 .title {
     letter-spacing: 0.0225cm;
@@ -240,84 +248,47 @@ page {
 }
 a {
     text-decoration: none;
-    color: var(--temp);
+    color: var(--text);
 }
-
+b {
+    font-weight: 550;
+    letter-spacing: 0.01cm;
+    color: var(--text);
+}
+li::marker {
+    color: var(--text);
+  }
+  
 /* Profile */
 .Pro {
     width: 100%;
     align-self: center;
-    margin-bottom: 0.3cm;
+    margin-bottom: var(--mar-V);
     text-align: justify;
 }
 .Pro .item{
-    font-size: var(--font-txt);
+    font-size: var(--font-Let);
     text-align: justify;
 }
-/* Achievements */
-.Ach {
+/* Strengths */
+.Str {
     width: 100%;
     align-self: center;
-    margin-bottom: 0.3cm;
+    margin-bottom: var(--mar-V);
+    text-align: justify;
 }
-.Ach .item{
-    display: list-item;
-    list-style-type: disc;
-    list-style-position: inside;
-    font-size: var(--font-list);
+.Str .item{
+    font-size: var(--font-Let);
 	margin-top: 0.25cm;
 	margin-bottom: 0.25cm;
-    padding-left: calc(var(--pad-H)/2);
-    padding-right: calc(var(--pad-H)/2);
-}
-
-/* Expertise */
-.Exp {
-    width: 100%;
-    align-self: center;
-    margin-bottom: 0.3cm;
-}
-.Exp-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-}
-.Exp .item{
-    font-size: var(--font-list);
-    display: list-item;
-    list-style-type: disc;
-    list-style-position: outside;
-}
-
-/* Tech-Skills */
-.tech-Ski {
-    width: 100%;
-    align-self: center;
-    margin-bottom: 0.3cm;
-}
-.tech-Ski .item{
-    font-size: var(--font-list);
-    padding-left: 0cm;
-    padding-right: 0cm;
-}
-.tech-Ski ul {
-    display: flex;
-    margin-top: 0.1cm;
-	margin-bottom: 0.1cm;
-}
-.tech-Ski ul li {
-    width:100%;
-    display: list-item;
-    list-style-type: disc;
-    list-style-position: outside;
 }
 
 /* Work */
 .Wor {
     width: 100%;
     align-self: center;
-    margin-bottom: 0.3cm;
+    margin-bottom: var(--mar-V);
+    margin-top: var(--mar-V);
 }
 .Wor .item{
 	margin-top: 0.25cm;
@@ -347,7 +318,7 @@ a {
 .Edu {
     width: 100%;
     align-self: center;
-    margin-bottom: 0.3cm;
+    margin-bottom: var(--mar-V);
 }
 .Edu .item{
 	margin-top: 0.25cm;
@@ -362,27 +333,53 @@ a {
     align-items: baseline;
 }
 
-/* Publication */
-.Pub {
+/* Expertise */
+.Exp {
     width: 100%;
     align-self: center;
-    margin-bottom: 0.3cm;
+    margin-bottom: var(--mar-V);
 }
-.Pub .item{
-    font-size: var(--font-txt);
-    text-align: justify;
-    hyphens: auto;
-	margin-top: 0.25cm;
-	margin-bottom: 0.25cm;
-    padding-left: calc(var(--pad-H)/2);
-    padding-right: calc(var(--pad-H)/2);
+.Exp-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.Exp .item{
+    font-size: var(--font-list);
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+/* Tech-Skills */
+.tech-Ski {
+    width: 100%;
+    align-self: center;
+    margin-bottom: var(--mar-V);
+}
+.tech-Ski .item{
+    font-size: var(--font-list);
+    padding-left: 0cm;
+    padding-right: 0cm;
+}
+.tech-Ski ul {
+    display: flex;
+    margin-top: 0.1cm;
+	margin-bottom: 0.1cm;
+}
+.tech-Ski ul li {
+    width:100%;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside;
 }
 
 /* Soft-Skills */
 .soft-Ski {
     width: 100%;
     align-self: center;
-    margin-bottom: 0.3cm;
+    margin-bottom: var(--mar-V);
 }
 .soft-Ski-items {
     display: flex;
@@ -397,24 +394,47 @@ a {
     list-style-position: outside;
 }
 
+/* Publication */
+.Pub {
+    width: 100%;
+    align-self: center;
+    margin-bottom: var(--mar-V);
+}
+.Pub .item{
+    font-size: var(--font-txt);
+    text-align: justify;
+    hyphens: auto;
+	margin-top: 0.25cm;
+	margin-bottom: 0.25cm;
+    padding-left: calc(var(--pad-H)/2);
+    padding-right: calc(var(--pad-H)/2);
+}
+
 /* Languages */
 .Lan {
     width: 100%;
     align-self: center;
-    margin-bottom: 0.3cm;
+    margin-bottom: var(--mar-V);
 }
 .Lan-items {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
+    font-size: var(--font-list);
 }
 .Lan .item{
     display: flex;
     flex-direction: row;
-    font-size: var(--font-list);
+}
+.Lan .language{
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: outside;
 }
 .Lan .fluency{
+    display: flex;
+    flex-direction: row;
     padding-left: 0.15cm;
 }
 /* ---------------------- Letter --------------------- */
@@ -425,15 +445,13 @@ a {
 	margin-top:0.5cm;
     display: flex;
     flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-around;
     font-size: var(--font-list);
 }
 
 /* Subject */
 .Subject{
 	margin-top: 0.75cm;
-    letter-spacing: 0.025cm;
-    font-weight: bold;
     font-size: var(--font-list);
 }
 
@@ -447,6 +465,13 @@ a {
     margin-top: 0.225cm;
     margin-bottom: 0.225cm;
     font-size: var(--font-Let);
+}
+.Let-cont .item .keyPoints>ul{
+    padding: 0;
+    padding-left: 0.35cm;
+}
+.Let-cont .item .keyPoints>ul>li{
+    margin-bottom: 0.2cm;
 }
 .Let-cont b {
 	font-weight: var(--font-weight);
@@ -467,11 +492,11 @@ a {
     justify-content: space-around;
     font-weight: bold;
     font-size: var(--font-list);
-    color: var(--temp);
 }
 
 .Close-let .SignPic {
     width: 7.5cm;
+    color: var(--text);
 }
 
 /* ---------------------- Screens --------------------- */

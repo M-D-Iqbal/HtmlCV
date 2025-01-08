@@ -1,0 +1,231 @@
+{
+    "basics": 
+    {
+        "label": "Berechnungsingenieur", 
+        "first": "Muhammad Danish",
+        "last" : "Iqbal",
+        "email": "m-d.iqbal@outlook.com",
+        "phone": "+4917682044361",
+        "proPic": "pic.jpg",
+        "address": "45145, Essen",
+        "sign":"sign.png",
+        "city": "Essen,",
+        "profile": "<b>Ingenieur und Spezialist für Computational Mechanics (Dr.-Ing.)</b> mit umfangreicher Erfahrung in der Entwicklung numerischer Methoden für Mehrphysik-Probleme in der Luft- und Raumfahrt- sowie Automobilindustrie. Experte in Simulationsalgorithmen, Programmierung und der Anwendung von CAE-Software zur Modellierung komplexer Materialien. Erfahren in der Projektleitung, der Bereitstellung innovativer Lösungen und der Zusammenarbeit mit internationalen Teams. Vereint technische Exzellenz, analytische Fähigkeiten und effektive Kommunikation, um Teams zu inspirieren und gemeinsame Ziele zu erreichen."
+    },
+   
+    "company":
+    [
+        "XYZ Gmbh",
+        "ABC 123",
+        "3456, IJK",
+        "Land",
+        "+49 - 123 456 789",
+        "xyz@contact.com"
+    ],
+
+    "subject":
+    [
+        "Bewerbung für die Position als [LABEL] [JOBREF]"
+    ],
+
+    "content": 
+    [
+        {   
+            "para" : "[PERSON],"
+        },
+
+        {   "para" : "mit ausgeprägtem Interesse bin ich auf [JOBWEB] auf die ausgeschriebene Position des [LABEL] [JOBREF] in ihrem Unternehmen [COMPANY] aufmerksam geworden."
+        },
+
+        {   "para" : "Kürzlich habe ich meine Promotion in Computational Mechanics mit einer Dissertation zum Thema \"Development of scaled boundary polygon elements for coupled thermoelastic fracture modeling\" absolviert. Deswegen bin ich nun auf der Suche nach neuen beruflichen Herausforderungen. In den letzten sieben Jahren habe ich neben meiner Promotion als wissenschaftlicher Mitarbeiter an der Universität Duisburg-Essen gearbeitet, wobei ich umfangreiche Fähigkeiten und Fachkenntnisse, wie [EXP-1] und [EXP-2] entwickelt habe, die für diese Position relevant sind."
+        },
+
+        {
+            "keyPoints" : 
+            [
+                "Ich habe die Scaled Boundary Finite Element Method (SBFEM) in MATLAB entwickelt, um komplexe Multi-Physik-Bruchprobleme zu lösen. Zusätzlich habe ich fundierte Kenntnisse in Tools wie [TOOL-1] und [TOOL-2] erworben.",
+                "Im Rahmen internationaler Forschungsprojekte habe ich aktiv mitgewirkt, meine Ergebnisse auf Konferenzen präsentiert und in renommierten Fachzeitschriften publiziert.",
+                "Ich habe Masterkurse in Strukturdynamik mit ANSYS sowie in Programmiersprachen für Ingenieure mit FORTRAN, C++ und Python unterrichtet.",
+                "Darüber hinaus habe ich Abschlussarbeiten im Bereich Computational Mechanics betreut und ein E-Learning-Projekt geleitet, bei dem Kursmaterialien digitalisiert wurden"
+            ]
+        },
+
+        {   "para" : "Durch diese umfassende Erfahrung haben sich sowohl meine technischen Fähigkeiten als auch meine sozialen Kompetenzen weitläufig ausgebaut. Deswegen bin ich überzeugt, dass ich mit diesem Hintergrund und meiner Expertise eine ausgezeichnete Besetzung für die Position erfülle. Um die Qualifikation meiner Fähigkeiten und Kompetenzen unter Beweis zu stellen, sehe ich einer Einladung zu einem persönlichen Kennlerngespräch mit großer Freude entgegen und bedanke mich herzlichst im Voraus."
+        },
+
+        {   "para" : "Mit freundlichen Grüßen,"	
+        }
+    ],
+
+    "strength":
+    [
+        "<b>Expertise in Simulation und Numerische Modellierung:</b> Erfahren in der Entwicklung und Implementierung fortschrittlicher numerischer Methoden zur Lösung komplexer Ingenieurprobleme, insbesondere in Mehrphasen-Simulationen.", 
+        "<b>Interdisziplinäre Kenntnisse:</b> Experte in der Integration tiefgehender Kenntnisse aus verschiedenen Ingenieurdisziplinen wie [EXP-1] und [EXP-2], um effektive und kreative Lösungen zu entwickeln.",
+        "<b>Technische Expertise:</b> Fundierte Kenntnisse in MATLAB, [TOOL-1], [TOOL-2] und anderen computergestützten Werkzeugen, mit starkem Fokus auf Algorithmusentwicklung und numerische Simulationen.",
+        "<b>Projektmanagement und Teamkoordination:</b> Entwicklung innovativer interaktiver Lernplattformen und Mitwirkung an der Gestaltung und Produktion eines Formula Student Autos, das den 1. Platz in einem Ingenieurswettbewerb belegte. Nachweis der Fähigkeit, sowohl technische als auch organisatorische Ziele zu definieren und zu erreichen.",
+        "<b>Innovation und Problemlösung:</b> Nachgewiesene Fähigkeit, innovative Lösungen zu entwickeln, die die Effizienz steigern und Arbeitsabläufe optimieren. Automatisierung der Prüfungsproduktion während der COVID-19-Pandemie, wodurch skalierbare Lösungen geschaffen wurden, die Zeit und Ressourcen spart.",
+        "<b>Interkulturelle und Kommunikationsfähigkeiten:</b> Erfahrung in der Zusammenarbeit mit internationalen Partnern, insbesondere im DAAD-PPP-Programm zwischen Deutschland und Australien. Ausgezeichnete Präsentationsfähigkeiten, nachgewiesen durch Konferenzvorträge und wissenschaftliche Veröffentlichungen. Fähigkeit, komplexe technische Inhalte verständlich und überzeugend zu vermitteln."
+    ],
+
+    "expertise": 
+    [
+        "Multiphysik-Probleme",
+        "Numerische Methoden",
+        "Strukturmechanik",
+        "Ingenieur-Werkstoffe"
+    ],
+
+    "tech-skills": 
+    [
+        {
+            "level": "Experte",
+            "tools": 
+            [
+                "FEM",
+                "SBFEM",
+                "Matlab",
+                "Ansys",
+                "LaTex"
+            ]
+        },
+        {
+            "level": "Fortgeschritten",
+            "tools": 
+            [
+                "FEM",
+                "CFD",
+                "FORTRAN",
+                "C++",
+                "Python"
+            ]
+        },
+        {
+            "level": "Mittelstufe",
+            "tools": 
+            [
+                "Linux",
+                "Git",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        }
+    ],
+
+    "work": [
+        {
+            "title": "Wissenschaftlicher  Mitarbeiter",
+            "org": "Universität Duisburg-Essen, Deutschland",
+            "date": "Aug. 2017 - März. 2024",
+            "highlights": 
+            [
+                "Promovierung zum Doktorgrad mit einer Dissertation zum Thema <a href=\"https://duepublico2.uni-due.de/receive/duepublico_mods_00082324\">\"Development of scaled boundary polygon elements for coupled thermoelastic fracture modeling.\"</a>",
+
+                "Entwicklung und Implementierung eines innovativen Finite-Elements (Scaled Boundary Finite Element) in der hausinternen MATLAB-Bibliothek zur Modellierung von multiphysikalischen Bruchproblemen bei Ingenieur-Werkstoffen.",
+
+                "Mitwerkung in der Lehre über \"Structure Dynamics\" und \"Computer Language for Engineers.\" Koordinierung des Kursmanagements, Entwicklung von Lehrmaterialien und praktischen Laborübungen.",
+
+                "Betreuung von Master- und Bachelorarbeiten zu diversen Bereichen der numerischen Modellierung, einschließlich Computational Fluid Dynamics (CFD), dynamische Lastmodellierung und Polygonvernetzung.",
+
+                "Leitung einer E-Learning-Initiative zur Implementierung eines interaktiven Lernansatzes und zur Verbesserung des Zugangs zu Kursmaterialien für Studierende."
+            ]
+        },
+        {
+            "title": "Gastwissenschaftler",
+            "org": "Federation University, Australien",
+            "date": "Jan. 2020 - März. 2020",
+            "highlights": 
+            [
+                "Kollaboration mit Universität Duisburg-Essen und Federation University, um gemeinsame Forschungsinitiativen im Rahmen der Australien-Deutschland Joint Research Cooperation (DAAD-PPP) weiterzuentwickeln.",
+
+                "Entwurf des Konzepts und der Strategie, sowie die Implementierung einer Erweiterung des Scaled Boundary Finite Element zur Modellierung von thermoelastischen Brüchen bei spezialisierten Ingenieur-Werkstoffen."
+            ]
+        },
+        {
+            "title": "Studentische Hilfskraft",
+            "org": "Universität Duisburg-Essen, Deutschland",
+            "date": "Jan. 2017 - März. 2017",
+            "highlights": 
+            [
+                "Entwicklung eines speziell angefertigten polygonbasierten Finite-Elements (Scaled Boundary Finite Element) in FORTRAN und Integration der entwickelten Element-Subroutine in die Open-Source-Software FEAPpv."
+            ]
+        }
+    ],
+
+    "education": 
+    [
+        {
+            "title": "Promotion (Dr.-Ing.)",
+            "org": "Universität Duisburg-Essen",
+            "date": "Jul. 2024"
+        },
+        {
+            "title": "M.Sc. Computational Mechanics",
+            "org": "Universität Duisburg-Essen",
+            "date": "Jul. 2017"
+        },
+        {
+            "title": "B.E. Automotive Engineering",
+            "org": "NED University",
+            "date": "Dec. 2012"
+        }
+    ],
+
+    "publications": 
+    [
+        "M. D. Iqbal, et al. <a href=\"https://doi.org/10.1016/j.tafmec.2023.104056\">\"Transient thermoelastic fracture analysis of functionally graded materials using the scaled boundary finite element method.\"</a> Theoretical and Applied Fracture Mechanics, vol. 127, Oct. 2023, p. 104056.",
+
+        "M. D. Iqbal, et al. <a href=\"https://doi.org/10.1016/j.engfracmech.2022.108305\">\"Thermoelastic fracture analysis of functionally graded materials using the scaled boundary finite element method.\"</a> Engineering Fracture Mechanics, vol. 264, Apr. 2022, p. 108305.",
+
+        
+        "M. D. Iqbal, et al. <a href=\"https://doi.org/10.1016/j.cma.2021.114106\">\"Development of the scaled boundary finite element method for crack propagation modeling of elastic solids subjected to coupled thermo-mechanical loads.\"</a> Computer Methods in Applied Mechanics and Engineering, vol. 387, Dec. 2021, p. 114106.",
+    
+    
+        "E.T. Ooi, et al. <a href=\"https://doi.org/10.1016/j.engfracmech.2020.107300\">\"A polygon scaled boundary finite element formulation for transient coupled thermoelastic fracture problems.\"</a> Engineering Fracture Mechanics, vol. 240, Dec. 2020, p. 107300."
+    ],
+
+    "languages": 
+    [
+        {
+            "language": "Urdu",
+            "fluency": "(Muttersprache)"
+        },
+        {
+            "language": "Englisch",
+            "fluency": "(verhandlungssicher)"
+        },
+        {
+            "language": "Deutsch",
+            "fluency": "(fließend)"
+        }
+    ],
+
+    "socials": 
+    [
+        {
+            "name": "Personal",
+            "url": "https://m-d-iqbal.github.io",
+            "icon": "fa-solid fa-globe fa-lg"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/in/muhammad-danish-iqbal-a63231309",
+            "icon": "fa-brands fa-linkedin fa-lg"
+        },
+        {
+            "name": "Google Scholar",
+            "url": "https://scholar.google.de/citations?user=cxAW-3MAAAAJ&hl=de",
+            "icon": "fa-brands fa-google fa-lg"
+        },
+        {
+            "name": "Researchgate",
+            "url": "https://researchgate.net/profile/Muhammad-Iqbal-95",
+            "icon": "fa-brands fa-researchgate fa-lg"
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/M-D-Iqbal",
+            "icon": "fa-brands fa-github fa-lg"
+        }
+    ]
+}
