@@ -7,7 +7,7 @@ import webbrowser
 title  = 'MD-Iqbal'     # name of html without extension
 style  = 'sty2'         # python and css style (currently only sty1 exsist)
 typ    = 'cvcl'         # typ: cv, cl, or cvcl        
-lang   = 'de'           # language for hyphenation and headings
+lang   = 'en'           # language for hyphenation and headings
 
 # JSON file
 if lang == 'de':
