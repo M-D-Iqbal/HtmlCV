@@ -8,8 +8,8 @@
     --back: white;
     --text: #242424;
     
-    --temp: #003366;
-    --temp: #424242;
+    --temp: #436b93;
+    --acc: #efc04a;
 
     --LHbg: var(--temp);
     --LHfg: var(--back);
@@ -20,13 +20,12 @@
     --headbg: var(--temp);
     --headfg: var(--back);
 
-    --txt:var(--temp);
 
     /* Fonts */
     --font-size: 40px;
 
     /* Header */
-    --picR: 5%;
+    --picR: 10%;
     --font-name: 0.55em;
     --font-label: 0.475em;
     --font-contact: 0.425em;
@@ -44,7 +43,7 @@
     /* Size */
     --pad-H: 1cm;
     --pad-V: 0.5cm;
-    --mar-V: 0.5cm;
+    --mar-V: 0.3cm;
 }
 
 /* ---------------------- Layout -------------------- */
@@ -178,11 +177,13 @@ page {
     font-weight: bold;
     text-transform: uppercase;
     margin-left: 0.25cm;
+    color: var(--acc);
 }
 .label {
     font-weight: normal;
     font-size: var(--font-label);
     margin-bottom: 0.25cm;
+    color: var(--temp);
 }
 /* Contact */
 .contact {
@@ -212,10 +213,13 @@ page {
     background-color: var(--temp);
 }
 .Social .item{
-    padding: 0.1cm;
+    padding-top: 0.15cm;
+    padding-bottom: 0.15cm;
+    padding-right: 0.5cm;
+    padding-left: 0.5cm;
 }
 .Social i {
-    color: var(--back);
+    color: var(--acc);
 }
 
 /* ------------- Content - CV ---------------- */
@@ -226,7 +230,7 @@ page {
     text-transform: uppercase;
     letter-spacing: 0.03cm;
     margin-bottom: 0.2cm;
-    color: var(--temp);
+    color: var(--text);
     border-bottom: solid 0.04cm var(--temp);
 }
 .title {
@@ -237,6 +241,7 @@ page {
 .org {
     font-size: var(--font-list);
 	margin-bottom: 0.05cm;
+    color: var(--temp);
 }
 .date {
     font-size: var(--font-list);
@@ -248,15 +253,16 @@ page {
 }
 a {
     text-decoration: none;
+    font-style: italic;
     color: var(--text);
 }
 b {
     font-weight: 550;
     letter-spacing: 0.01cm;
-    color: var(--text);
+    color: var(--temp);
 }
 li::marker {
-    color: var(--text);
+    color: var(--temp);
   }
   
 /* Profile */
@@ -427,6 +433,7 @@ li::marker {
     display: flex;
     flex-direction: row;
 }
+
 .Lan .language{
     display: list-item;
     list-style-type: disc;
@@ -437,6 +444,10 @@ li::marker {
     flex-direction: row;
     padding-left: 0.15cm;
 }
+.Lan .language::marker {
+    color: var(--temp); 
+}
+
 /* ---------------------- Letter --------------------- */
 /* Company */
 .Company {
@@ -453,6 +464,7 @@ li::marker {
 .Subject{
 	margin-top: 0.75cm;
     font-size: var(--font-list);
+    font-weight: bold;
 }
 
 /* Letter Content */

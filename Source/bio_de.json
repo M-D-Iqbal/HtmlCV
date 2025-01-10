@@ -10,7 +10,7 @@
         "address": "45145, Essen",
         "sign":"sign.png",
         "city": "Essen,",
-        "profile": "<b>Ingenieur und Spezialist für Computational Mechanics (Dr.-Ing.)</b> mit umfangreicher Erfahrung in der Entwicklung numerischer Methoden für Mehrphysik-Probleme in der Luft- und Raumfahrt- sowie Automobilindustrie. Experte in Simulationsalgorithmen, Programmierung und der Anwendung von CAE-Software zur Modellierung komplexer Materialien. Erfahren in der Projektleitung, der Bereitstellung innovativer Lösungen und der Zusammenarbeit mit internationalen Teams. Vereint technische Exzellenz, analytische Fähigkeiten und effektive Kommunikation, um Teams zu inspirieren und gemeinsame Ziele zu erreichen."
+        "profile": "<b>Ingenieur und Spezialist für Computational Mechanics (Dr.-Ing.)</b> mit umfangreicher Erfahrung in der Entwicklung numerischer Methoden für Multiphysik-Probleme in der Luft- und Raumfahrt- sowie Automobilindustrie. Experte in Simulationsalgorithmen, Programmierung und der Anwendung von CAE-Software zur Modellierung komplexer Materialien. Erfahren in der Projektleitung, der Bereitstellung innovativer Lösungen und der Zusammenarbeit mit internationalen Teams. Vereint technische Exzellenz, analytische Fähigkeiten und effektive Kommunikation, um Teams zu inspirieren und gemeinsame Ziele zu erreichen."
     },
    
     "company":
@@ -46,7 +46,7 @@
                 "Ich habe die Scaled Boundary Finite Element Method (SBFEM) in MATLAB entwickelt, um komplexe Multi-Physik-Bruchprobleme zu lösen. Zusätzlich habe ich fundierte Kenntnisse in Tools wie [TOOL-1] und [TOOL-2] erworben.",
                 "Im Rahmen internationaler Forschungsprojekte habe ich aktiv mitgewirkt, meine Ergebnisse auf Konferenzen präsentiert und in renommierten Fachzeitschriften publiziert.",
                 "Ich habe Masterkurse in Strukturdynamik mit ANSYS sowie in Programmiersprachen für Ingenieure mit FORTRAN, C++ und Python unterrichtet.",
-                "Darüber hinaus habe ich Abschlussarbeiten im Bereich Computational Mechanics betreut und ein E-Learning-Projekt geleitet, bei dem Kursmaterialien digitalisiert wurden"
+                "Darüber hinaus habe ich Abschlussarbeiten im Bereich Computational Mechanics betreut und ein E-Learning-Projekt geleitet, bei dem Kursmaterialien digitalisiert wurden."
             ]
         },
 
@@ -59,10 +59,10 @@
 
     "strength":
     [
-        "<b>Expertise in Simulation und Numerische Modellierung:</b> Erfahren in der Entwicklung und Implementierung fortschrittlicher numerischer Methoden zur Lösung komplexer Ingenieurprobleme, insbesondere in Mehrphasen-Simulationen.", 
-        "<b>Interdisziplinäre Kenntnisse:</b> Experte in der Integration tiefgehender Kenntnisse aus verschiedenen Ingenieurdisziplinen wie [EXP-1] und [EXP-2], um effektive und kreative Lösungen zu entwickeln.",
-        "<b>Technische Expertise:</b> Fundierte Kenntnisse in MATLAB, [TOOL-1], [TOOL-2] und anderen computergestützten Werkzeugen, mit starkem Fokus auf Algorithmusentwicklung und numerische Simulationen.",
-        "<b>Projektmanagement und Teamkoordination:</b> Entwicklung innovativer interaktiver Lernplattformen und Mitwirkung an der Gestaltung und Produktion eines Formula Student Autos, das den 1. Platz in einem Ingenieurswettbewerb belegte. Nachweis der Fähigkeit, sowohl technische als auch organisatorische Ziele zu definieren und zu erreichen.",
+        "<b>Expertise in Simulation und Numerische Modellierung:</b> Erfahren in der Entwicklung und Implementierung fortschrittlicher numerischer Methoden zur Lösung komplexer Ingenieurprobleme, insbesondere bei Multiphysik-Simulationen.", 
+        "<b>Interdisziplinäre Kenntnisse:</b> Experte für die Integration von fundiertem Wissen aus verschiedenen technischen Disziplinen wie [EXP-1] und [EXP-2], um effektive und kreative Lösungen zu entwickeln.",
+        "<b>Technische Expertise:</b> Fundierte Kenntnisse von MATLAB, [TOOL-1], [TOOL-2] und anderen computergestützten Werkzeugen, mit Schwerpunkt auf der Entwicklung von Algorithmen und numerischen Simulationen.",
+        "<b>Projektmanagement und Teamkoordination:</b> Entwicklung innovativer interaktiver Lernplattformen und Beteiligung an der Konzeption und Produktion eines Formula Student- Autos, das bei einem Ingenieurwettbewerb den ersten Platz belegte. Nachgewiesene Fähigkeit, sowohl technische als auch organisatorische Ziele zu definieren und zu erreichen.",
         "<b>Innovation und Problemlösung:</b> Nachgewiesene Fähigkeit, innovative Lösungen zu entwickeln, die die Effizienz steigern und Arbeitsabläufe optimieren. Automatisierung der Prüfungsproduktion während der COVID-19-Pandemie, wodurch skalierbare Lösungen geschaffen wurden, die Zeit und Ressourcen spart.",
         "<b>Interkulturelle und Kommunikationsfähigkeiten:</b> Erfahrung in der Zusammenarbeit mit internationalen Partnern, insbesondere im DAAD-PPP-Programm zwischen Deutschland und Australien. Ausgezeichnete Präsentationsfähigkeiten, nachgewiesen durch Konferenzvorträge und wissenschaftliche Veröffentlichungen. Fähigkeit, komplexe technische Inhalte verständlich und überzeugend zu vermitteln."
     ],
